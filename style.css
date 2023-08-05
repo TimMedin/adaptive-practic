@@ -47,6 +47,9 @@ header {
         margin: auto;
 }
 
+.about-list-box {
+    max-width: 360px;
+}
 .header-text {
     margin-right: 200px;
     color: #FFF;
@@ -112,7 +115,7 @@ header {
 
 @media screen and (min-width: 1024px) {
     .container {
-       max-width: 1600px;
+       max-width: 916px;
     }
 
      .header-box {
@@ -239,6 +242,8 @@ header {
 .about-list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -250,6 +255,11 @@ header {
 @media screen and (min-width: 1024px) {
     .about-list {
         grid-template-columns: repeat(4, 1fr);
+        gap: 37px;
+    }
+
+    .about-list-text  {
+        width: 224px !important;
     }
 }
 
@@ -285,6 +295,15 @@ header {
         font-weight: 700;
         line-height: normal;
         margin-bottom: 35px;
+    }
+
+    .about-list-box {
+        max-width: 217px !important;
+        margin: 0 auto;
+    }
+
+    .about-list-item {
+        max-width: 217px;
     }
 }
 
@@ -350,4 +369,9 @@ header {
 .about-btn-box {
     display: flex;
     justify-content: center;
+}
+
+.about-list-box {
+    max-width: 194px;
+    margin: 0 auto;
 }

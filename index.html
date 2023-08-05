@@ -36,39 +36,75 @@
             </div>
         </section>
         <section class="about">
-            <h2 class="about-heading">Meet a partner for your best holiday</h2>
-            <ul class="about-list">
-                <li class="about-list-item">
-                    <div class="about-list-box">
-                        <img src="/img-1.png" alt="Bradley Hunter" class="about-img">
-                        <h3 class="about-list-heading">Bradley Hunter</h3>
-                        <p class="about-list-text">Based in Chicago. I love playing tennis and loud music.</p>
-                    </div>
-                </li>
-                <li class="about-list-item">
-                    <div class="about-list-box">
-                        <img src="/img2.png" alt="Lucas Marsha" class="about-img">
-                        <h3 class="about-list-heading">Lucas Marsha</h3>
-                        <p class="about-list-text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-                    </div>
-                </li>
-                <li class="about-list-item">
-                    <div class="about-list-box">
-                        <img src="/img-3.png" alt="" class="about-img">
-                        <h3 class="about-list-heading">Heather Walker</h3>
-                        <p class="about-list-text">Based in Chicago. I love playing tennis and loud music.</p>
-                    </div>
-                </li>
-                <li class="about-list-item">
-                    <div class="about-list-box">
-                        <img src="/img-4.png" alt="" class="about-img">
-                        <h3 class="about-list-heading">Bradley Hunter</h3>
-                        <p class="about-list-text">Based in Chicago. I love playing tennis and loud music.</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="about-btn-box">
-                <button class="about-btn">See other partners</button>
+            <div class="container">
+                <h2 class="about-heading">Meet a partner for your best holiday</h2>
+                <ul class="about-list">
+                    <li class="about-list-item">
+                        <div class="about-list-box">
+                           
+                            <!-- <picture> -->
+                              <!-- <source srcset="/desk-1man-1x.jpg 1x, /desk-1man-2x-desktop.jpg 2x" media="(min-width: 1200px;)"> -->
+                              <!-- <img src="/desk-1man-1x.jpg" alt="Bradley Hunter" class="about-img"> -->
+                              <!-- <source srcset="./mob-1man-1x-tablet.png 1x, ./mob-1man-2x-tablet.png 2x" media="(min-width: 768px;)">
+                              <img src="./mob-1man-1x-mobile.png" alt=""> -->
+                            <!-- </picture> -->
+                            <picture>
+                        <source
+                            srcset="
+                            ./desk-1man-1x.jpg 1x,
+                            ./desk-1man-2x-desktop.jpg 2x
+                            " 
+                            media="(min-width:1200px)"
+                        />
+                         <source
+                            srcset="
+                            ./mob-1man-1x-tablet.png 1x,
+                            ./mob-1man-2x-tablet.png 2x
+                            " 
+                            media="(min-width:768px)"
+                        />
+                         <source
+                            srcset="
+                            ./mob-1man-1x-mobile.png 1x,
+                            ./mob-1man-2x-mobile.png 2x
+                            " 
+                            media="(min-width:0px)"
+                        />
+                        <img src="/mob-1man-1x-mobile.png" alt="">
+    
+                        
+                       
+                    </picture>
+
+                            <h3 class="about-list-heading">Bradley Hunter</h3>
+                            <p class="about-list-text">Based in Chicago. I love playing tennis and loud music.</p>
+                        </div>
+                    </li>
+                    <li class="about-list-item">
+                        <div class="about-list-box">
+                            <img src="/img2.png" alt="Lucas Marsha" class="about-img">
+                            <h3 class="about-list-heading">Lucas Marsha</h3>
+                            <p class="about-list-text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+                        </div>
+                    </li>
+                    <li class="about-list-item">
+                        <div class="about-list-box">
+                            <img src="/img-3.png" alt="" class="about-img">
+                            <h3 class="about-list-heading">Heather Walker</h3>
+                            <p class="about-list-text">Based in Chicago. I love playing tennis and loud music.</p>
+                        </div>
+                    </li>
+                    <li class="about-list-item">
+                        <div class="about-list-box">
+                            <img src="/img-4.png" alt="" class="about-img">
+                            <h3 class="about-list-heading">Bradley Hunter</h3>
+                            <p class="about-list-text">Based in Chicago. I love playing tennis and loud music.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="about-btn-box">
+                    <button class="about-btn">See other partners</button>
+                </div>
             </div>
         </section>
     </main>
